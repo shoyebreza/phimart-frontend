@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import MainLayout from '../layouts/MainLayout';
-import Slide from '../components/carousel/slide';
+import Slide from '../components/carousel/CarouselSlide';
 
 const AppRoutes = () => {
     return (

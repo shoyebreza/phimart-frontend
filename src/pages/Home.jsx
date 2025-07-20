@@ -1,9 +1,10 @@
-import Slide from "../components/carousel/slide";
+import HeroCarousel from "../components/carousel/HeroCarousel";
+
 
 const Home = () => {
     return (
         <div>
-            <Slide></Slide>
+            <HeroCarousel/>
         </div>
     );
 };
