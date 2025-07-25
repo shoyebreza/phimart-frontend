@@ -1,6 +1,6 @@
 import bgImg from "../../assets/images/banner-image-bg-1.jpg";
 import bannerImg from "../../assets/images/banner-image3.png";
-/* import DiscountTimer from "./DiscountTimer"; */
+import DiscountTimer from "./DiscountTimer";
 const DiscountSection = () => {
   return (
     <section
@@ -19,7 +19,7 @@ const DiscountSection = () => {
             30% Discount On All Items. Hurry Up !!!
           </h1>
           {/* CountDown Timer  */}
-          {/* <DiscountTimer /> */}
+          <DiscountTimer />
           <button className="btn btn-secondary px-6 py-3 rounded-full shadow-md">
             Shop Collection
           </button>
