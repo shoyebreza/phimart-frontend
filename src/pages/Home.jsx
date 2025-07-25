@@ -1,7 +1,9 @@
 import HeroCarousel from "../components/carousel/HeroCarousel";
+import Category from "../components/categories/Category";
 import DiscountSection from "../components/discount/DiscountSection";
 import Features from "../components/Features";
 import Product from "../components/Products/Product";
+
 
 
 const Home = () => {
@@ -11,6 +13,7 @@ const Home = () => {
             <Features/>
             <Product/>
             <DiscountSection/>
+            <Category/>
         </div>
     );
 };
