@@ -16,7 +16,7 @@ const Product = () => {
   useEffect(() => {
     setLoading(true);
     apiClient
-      .get("http://127.0.0.1:8000/api/products/")
+      .get("/products/")
       .then((res) => setProducts(res.data.results))
       .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
