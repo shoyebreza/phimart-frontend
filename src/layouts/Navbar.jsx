@@ -1,7 +1,8 @@
-import React from 'react';
-import { Link, NavLink } from 'react-router';
+import { Link } from "react-router";
+import useAuthContext from "../hooks/useAuthContext";
 
 const Navbar = () => {
+    const { user, logoutUser } = useAuthContext();
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className="navbar-start">
@@ -15,7 +16,6 @@ const Navbar = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/shop">Shop</Link></li>
                     <li><Link to="/about">About</Link></li>
-                    <li><Link to="/login">Login</Link></li>
                 </ul>
                 </div>
                 <a className="btn btn-ghost text-xl">daisyUI</a>
@@ -25,7 +25,6 @@ const Navbar = () => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/shop">Shop</Link></li>
                  <li><Link to="/about">About</Link></li>
-                 <li><Link to="/login">Login</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
