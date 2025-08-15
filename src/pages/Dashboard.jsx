@@ -1,6 +1,6 @@
 import { FiPackage, FiShoppingCart, FiStar, FiUsers } from "react-icons/fi";
-import StatCard from "../components/Dashboard/StatCard";
-import Order from "../components/Dashboard/Order";
+/* import StatCard from "../components/Dashboard/StatCard";
+import Order from "../components/Dashboard/Order"; */
 
 export default function Dashboard() {
   return (
