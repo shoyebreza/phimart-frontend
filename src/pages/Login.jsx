@@ -104,6 +104,5 @@ const Login = () => {
 };
 
 export default Login;
-
-
+// my login pass
 /* "admin@admin.com", "1234" */
