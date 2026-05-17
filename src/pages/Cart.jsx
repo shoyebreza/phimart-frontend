@@ -1,5 +1,5 @@
 import { Suspense, useEffect, useState } from "react";
-import useCartContext from "../hooks/useCartContext";
+import useCart from "../hooks/useCart";
 import CartItemList from "../components/Cart/CartItemList";
 import CartSummary from "../components/Cart/CartSummary";
 
@@ -11,7 +11,7 @@ const Cart = () => {
     createOrGetCart,
     updateCartItemQuantity,
     deleteCartItems,
-  } = useCartContext();
+  } = useCart();
 
   const [localCart, setLocalCart] = useState(cart);
 

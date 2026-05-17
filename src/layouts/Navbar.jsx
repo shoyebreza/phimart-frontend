@@ -1,10 +1,10 @@
 import { Link } from "react-router";
 import useAuthContext from "../hooks/useAuthContext";
-import useCartContext from "../hooks/useCartContext";
+import useCart from "../hooks/useCart";
 
 const Navbar = () => {
   const { user, logoutUser } = useAuthContext();
-  const { cart } = useCartContext();
+  const { cart } = useCart();
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
