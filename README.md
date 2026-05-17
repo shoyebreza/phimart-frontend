@@ -36,6 +36,8 @@ npm install
 VITE_API_BASE_URL=http://localhost:8000
 ```
 
+- API base URL is currently set to `http://127.0.0.1:8000/api` in [src/services/api-client.js](src/services/api-client.js). Update it if your backend runs elsewhere.
+
 5) Start the development server
 
 ```bash
