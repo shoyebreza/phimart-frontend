@@ -1,12 +1,54 @@
-# React + Vite
+# Phimart Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite frontend for the Phimart app.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js 18+ (recommended)
+- npm 9+ (or a compatible package manager)
 
-## Expanding the ESLint configuration
+## Step-by-step setup and installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1) Clone the repository
+
+```bash
+git clone <https://github.com/shoyebreza/phimart-frontend>
+```
+
+2) Move into the project folder
+
+```bash
+cd phimart-frontend
+```
+
+3) Install dependencies
+
+```bash
+npm install
+```
+
+4) Configure environment (if required)
+
+- Create a .env file if your API or auth settings require it.
+- Example keys (adjust to your backend):
+
+```bash
+VITE_API_BASE_URL=http://localhost:8000
+```
+
+5) Start the development server
+
+```bash
+npm run dev
+```
+
+6) Open the app
+
+- Vite will print the local URL (usually http://localhost:5173).
+
+## Useful scripts
+
+- Start dev server: `npm run dev`
+- Build for production: `npm run build`
+- Preview production build: `npm run preview`
+- Lint (if configured): `npm run lint`
